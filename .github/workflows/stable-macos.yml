@@ -8,6 +8,7 @@ on:
         description: Force update version
       generate_assets:
         type: boolean
+        default: true
         description: Generate assets
       checkout_pr:
         type: string
